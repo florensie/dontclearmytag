@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "compatibilityLevel": "JAVA_17",
+  "package": "be.florens.dontclearmytag.mixin",
+  "refmap": "mixins.dontclearmytag.refmap.json",
+  "mixins": [
+    "TagLoaderMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
